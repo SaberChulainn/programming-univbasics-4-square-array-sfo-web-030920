@@ -1,9 +1,8 @@
 def square_array(array)
   # your code here
-  counter = 0 
+  i = 0 
   while counter < array.length do
-    array[counter] = Math.pow(array[counter], array[counter])
+    array[i] = array[i]**2
     counter += 1
   end
-  return array
 end
